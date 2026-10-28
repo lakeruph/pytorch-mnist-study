@@ -1,0 +1,26 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# MNIST datasets
+data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Python environments
+.venv/
+venv/
+.env
+
+# Logs and temporary files
+*.log
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
