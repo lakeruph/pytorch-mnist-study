@@ -67,7 +67,7 @@ Copy-Item .\mnist_cnn.pt .\mnist_cnn_baseline_e3.pt
 python verify_checkpoint.py
 ```
 
-该脚本从当前目录读取 `mnist_cnn_baseline_e3.pt`，使用 CPU 恢复网络权重，并对 MNIST 测试集进行逐批预测。请从 `examples/mnist` 目录执行，以便相对路径正常解析。
+该脚本从当前目录读取 `mnist_cnn_baseline_e3.pt`，使用 CPU 恢复网络权重，并对 MNIST 测试集进行逐批预测。请从 mnist 目录执行，以便相对路径正常解析。
 
 ### 4.3 学习率对比训练：学习率 0.5
 
